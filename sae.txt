@@ -1,0 +1,18 @@
+-Biwords: hol*e = $h and ho and ol and e$
+
+-map
+
+-tabal de palabras
+
+-df=documentos donde aparece
+N=total documentos
+idf=log(N/df)
+f=numero de veces que aparece en el documento
+tf=1+log(f)
+w=tf*idf
+L-Nom=w/(sqrt(w1^2+...+wn^2))
+coseno(D1, D2)=E(toddas las palabras de la consulta)(L-NomD1*L-NomD2)
+
+-f-media: F=((1+B^2)*P*R)/(R+P*B^2)
+precision=nºdocs rel rec/nºdocs rec
+recall=nºdocs rel doc/nºdocs rel
